@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "test": "node --test",
+    "test:started": "node scripts/test-started.js",
     "test:01": "node --test \"exercises/01-basics/*.test.js\"",
     "test:02": "node --test \"exercises/02-strings/*.test.js\"",
     "test:03": "node --test \"exercises/03-arrays/*.test.js\"",
