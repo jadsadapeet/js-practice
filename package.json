@@ -6,16 +6,16 @@
   "private": true,
   "scripts": {
     "test": "node --test",
-    "test:01": "node --test exercises/01-basics/",
-    "test:02": "node --test exercises/02-strings/",
-    "test:03": "node --test exercises/03-arrays/",
-    "test:04": "node --test exercises/04-objects/",
-    "test:05": "node --test exercises/05-functions/",
-    "test:06": "node --test exercises/06-async/",
-    "test:review": "node --test review/",
+    "test:01": "node --test \"exercises/01-basics/*.test.js\"",
+    "test:02": "node --test \"exercises/02-strings/*.test.js\"",
+    "test:03": "node --test \"exercises/03-arrays/*.test.js\"",
+    "test:04": "node --test \"exercises/04-objects/*.test.js\"",
+    "test:05": "node --test \"exercises/05-functions/*.test.js\"",
+    "test:06": "node --test \"exercises/06-async/*.test.js\"",
+    "test:review": "node --test \"review/**/*.test.js\"",
     "watch": "node --test --watch"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   }
 }

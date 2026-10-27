@@ -4,7 +4,7 @@
 
 ## เริ่มต้น
 
-ต้องมี [Node.js](https://nodejs.org) เวอร์ชัน 20 ขึ้นไป (เช็คด้วยคำสั่ง `node --version`) ไม่ต้อง `npm install` เพราะไม่มี dependency
+ต้องมี [Node.js](https://nodejs.org) เวอร์ชัน 22 ขึ้นไป (เช็คด้วยคำสั่ง `node --version`) ไม่ต้อง `npm install` เพราะไม่มี dependency
 
 ```bash
 git clone <url ของ repo นี้>
